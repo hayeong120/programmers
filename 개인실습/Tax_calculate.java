@@ -4,8 +4,10 @@ class Tax_calculate
 {
 	public static void main(String[] args) 
 	{
-		double tax, salary;
-		tax = 0;
+		double salary, tax = 0;
+
+		System.out.print("연간 근로소득 : ");
+
 		Scanner scan = new Scanner(System.in);
 		salary = scan.nextDouble();
 
@@ -19,6 +21,6 @@ class Tax_calculate
 			tax = salary*0.4;
 		}
 
-		System.out.println(tax);
+		System.out.println("소득세 : " + tax);
 	}
 }
