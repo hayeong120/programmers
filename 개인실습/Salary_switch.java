@@ -13,8 +13,7 @@ class Salary_Switch
 
 		System.out.print("근무평가등급을 입력하세요 : ");
 		rating = sc.next();
-		System.out.println("입력한 근무평가 등급은 " + rating + "입니다.");
-
+		
 		switch(rating)
 		{
 			case "우수":
