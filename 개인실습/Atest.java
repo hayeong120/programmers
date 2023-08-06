@@ -10,7 +10,9 @@ class  Atest
 
 		for (int i=0; i<3; i++)
 		{
+			System.out.println("d");
 			num[i] = sc.nextInt();
+			System.out.println("da");
 		}
 	}
 }
