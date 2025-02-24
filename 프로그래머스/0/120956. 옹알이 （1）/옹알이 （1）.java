@@ -9,7 +9,7 @@ class Solution {
                                      .replace("ma", ",");
             
             
-            if(babbling[i].replaceAll(",", "").isEmpty())
+            if(babbling[i].replace(",", "").isEmpty())
                 answer++;            
         }
         
